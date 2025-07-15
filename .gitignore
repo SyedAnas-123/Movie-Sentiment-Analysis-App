@@ -1,0 +1,18 @@
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore model checkpoints and temp files
+*.h5
+*.keras
+*.pkl
+*.log
+__pycache__/
+*.pyc
+.DS_Store
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/

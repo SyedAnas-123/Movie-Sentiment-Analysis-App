@@ -69,3 +69,31 @@ pip install -r requirements.txt
 
 # Run the app
 streamlit run app.py
+
+🛰️ Deployment (Hugging Face Spaces)
+This project is also deployed at:
+👉 Live Demo on Hugging Face
+
+🔄 CI/CD with GitHub Actions
+Every push to GitHub triggers:
+
+✅ Linting and Testing
+
+✅ Auto-build of the Streamlit app
+
+✅ Auto-deployment to Hugging Face Spaces
+
+deploy.yml manages this flow via GitHub Actions.
+
+📈 Example Predictions
+Review Text	Predicted Sentiment	Confidence
+"This movie was fantastic. I loved it!"	😃 Positive	0.94
+"This was the worst movie I’ve ever seen."	😞 Negative	0.88
+"It was average, not great but not terrible."	😞 Negative	0.52
+
+🙋‍♂️ Author
+Syed Mohammad Anas
+📫 Connect on LinkedIn
+💻 Explore more on GitHub
+
+⭐ If you liked this project, give it a star!

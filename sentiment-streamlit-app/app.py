@@ -2,6 +2,9 @@
 # cd sentiment-streamlit-app
 # streamlit run app.py
 
+# git add .python-version
+# git commit -m "Specify Python version for Render"
+# git push origin main
 import streamlit as st
 from keras.models import load_model
 from keras.preprocessing.sequence import pad_sequences
